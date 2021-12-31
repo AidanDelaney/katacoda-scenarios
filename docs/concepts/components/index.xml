@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Components on Cloud Native Buildpacks</title>
+    <link>https://buildpacks.io/docs/concepts/components/</link>
+    <description>Recent content in Components on Cloud Native Buildpacks</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://buildpacks.io/docs/concepts/components/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Builder</title>
+      <link>https://buildpacks.io/docs/concepts/components/builder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildpacks.io/docs/concepts/components/builder/</guid>
+      <description>A builder is an image that contains all the components necessary to execute a build. A builder image is created by taking a build image and adding a lifecycle, buildpacks, and files that configure aspects of the build including the buildpack detection order and the location(s) of the run image</description>
+    </item>
+    
+    <item>
+      <title>Buildpack</title>
+      <link>https://buildpacks.io/docs/concepts/components/buildpack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildpacks.io/docs/concepts/components/buildpack/</guid>
+      <description>&lt;h2 id=&#34;what-is-a-buildpack&#34;&gt;What is a buildpack?&lt;/h2&gt;
+&lt;p&gt;A buildpack is a set of executables that inspects your app source code and create a plan to build and run your application.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Buildpack Group</title>
+      <link>https://buildpacks.io/docs/concepts/components/buildpack-group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildpacks.io/docs/concepts/components/buildpack-group/</guid>
+      <description>A buildpack group is a list of specific buildpacks composed together in an order such that the list is suitable for building an application. Because buildpacks are modular and reusable, a buildpack group is what allows you to connect multiple modular buildpacks together.</description>
+    </item>
+    
+    <item>
+      <title>Platform</title>
+      <link>https://buildpacks.io/docs/concepts/components/platform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildpacks.io/docs/concepts/components/platform/</guid>
+      <description>&lt;h2 id=&#34;what-is-a-platform&#34;&gt;What is a Platform?&lt;/h2&gt;
+&lt;p&gt;A &lt;code&gt;platform&lt;/code&gt; uses a &lt;a href=&#34;https://buildpacks.io/docs/concepts/components/lifecycle/&#34;&gt;lifecycle&lt;/a&gt;, &lt;a href=&#34;https://buildpacks.io/docs/concepts/components/buildpack/&#34;&gt;buildpacks&lt;/a&gt; (packaged in a &lt;a href=&#34;https://buildpacks.io/docs/concepts/components/builder/&#34;&gt;builder&lt;/a&gt;), and application source code to produce an OCI image.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Stack</title>
+      <link>https://buildpacks.io/docs/concepts/components/stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://buildpacks.io/docs/concepts/components/stack/</guid>
+      <description>&lt;h2 id=&#34;what-is-a-stack&#34;&gt;What is a stack?&lt;/h2&gt;
+&lt;p&gt;A stack is composed of two images that are intended to work together:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The &lt;strong&gt;build image&lt;/strong&gt; of a stack provides the base image from which the build environment is constructed. The build environment is the containerized environment in which the &lt;a href=&#34;https://buildpacks.io/docs/concepts/components/lifecycle/&#34;&gt;lifecycle&lt;/a&gt; (and thereby &lt;a href=&#34;https://buildpacks.io/docs/concepts/components/buildpack/&#34;&gt;buildpacks&lt;/a&gt;) are executed.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;run image&lt;/strong&gt; of a stack provides the base image from which application images are built.&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
